@@ -12,7 +12,7 @@ failed = []
 
 for stonk in sp500:
     try:
-        data = yf.download(  # or pdr.get_data_yahoo(...
+        data = yf.download(  
                 tickers = stonk,
                 period = "2y",
                 interval = "1d",
